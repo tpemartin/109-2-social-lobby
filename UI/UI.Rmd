@@ -1,5 +1,5 @@
 ---
-drake_cache: ".poster"
+drake_cache: ".myHtml"
 ---
 
 ## Materialise Framework
@@ -21,8 +21,8 @@ library(dplyr)
 library(htmltools)
 library(econR)
 .GlobalEnv$web <- econR::Web()
-web$foldername="docs" # output folder name
-web$html_filename <- "poster.html"
+web$foldername="docs2" # output folder name
+web$html_filename <- "index.html"
 
 ```
 
